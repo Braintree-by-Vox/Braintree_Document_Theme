@@ -1,7 +1,22 @@
-title: Welcome to Braintree Support
-description: >
-  Braintree Support Documentation
-theme: jekyll-theme-cayman
-show_downloads: true
-github:
-  is_project_page: false
+# Braintree Document Theme - Default Configuration
+# This file contains the default theme settings
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+
+# Sass configuration
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - braintree-document-theme.gemspec
+  - README.md
+  - LICENSE
